@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/abrirurl"
+        android:hint="@string/digite_a_url_do_canal"
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/send"
+        android:background="@drawable/ic_send"
+        android:layout_width="45dp"
+        android:layout_height="40dp" />
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="color">#12b3fc</color>
+    <color name="orange">#fe8707</color>
+    <color name="light_orange">#66fe8707</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#55000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="chromcast_bg">#242424</color>
+    <color name="player_bg">#88000000</color>
+    <color name="buttoncolor">#616263</color>
+
+
+</resources>

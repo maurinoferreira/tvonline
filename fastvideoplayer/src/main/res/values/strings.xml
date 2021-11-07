@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FastVideoPlayer</string>
+    <string name="giraffe_player_url_empty">Canal offline ou não há conexão!</string>
+    <string name="small_problem">Algo deu errado, tente novamente mais tarde.</string>
+    <string name="can_not_play">Não foi possível reproduzir.</string>
+    <string name="not_support">Não suportado</string>
+    <string name="player_not_wifi">Você está usando uma rede móvel para reproduzir vídeo pode gerar custos de tráfego mais altos</string>
+    <string name="continue_player">Continuar</string>
+    <string name="tautology_player">Tente novamente.</string>
+    <string name="erro_canal">Canal offline ou não há conexão!</string>
+    <string name="tentar">Tentar</string>
+</resources>

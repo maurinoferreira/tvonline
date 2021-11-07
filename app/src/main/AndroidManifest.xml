@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.m.f.tvonline">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission  android:name="android.permission.WAKE_LOCK"  />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!--optional -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!--optional -->
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    <uses-feature android:name="android.hardware.location.network" android:required="false" />
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity
+            android:name=".ActivitySplash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Live.LivePlayerActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Live.LiveActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+
+
+
+        <activity android:name=".Player"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".FastPlayer"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".EscolhaPlayer"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Filmes.Terror"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Filmes.Romance"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Filmes.Ficcao"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Filmes.Drama"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Filmes.Comedia"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Filmes.Acao"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Filmes.Aventura"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Filmes.Animacao"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Categoriascanais.Variedades"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+			
+        <activity android:name=".Categoriascanais.Religiosos"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+			
+        <activity android:name=".Categoriascanais.Noticias"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+			
+        <activity android:name=".Categoriascanais.Esportes"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+			
+        <activity android:name=".Categoriascanais.Educativos"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+			
+        <activity android:name=".Categoriascanais.Desenhos"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+			
+        <activity android:name=".Categoriascanais.Abertos"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+			
+			 <activity android:name=".Youtube"/>
+
+
+
+
+    </application>
+
+</manifest>

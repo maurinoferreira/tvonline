@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "959863846871",
+    "firebase_url": "https://tv-online-affa7.firebaseio.com",
+    "project_id": "tv-online-affa7",
+    "storage_bucket": "tv-online-affa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959863846871:android:505b9ef955b7dba7",
+        "android_client_info": {
+          "package_name": "com.m.f.tvonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959863846871-pnmvfrp35okbsb6tod9luvc4rm02j007.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6AzqP0auEBRpkYhDF2hrDDQ9hAwVUl6c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
